@@ -1,54 +1,66 @@
-# Teste prático de backend
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-Neste repositório você encontra o enunciado do teste técnico de desenvolvedor com foco em PHP e Laravel.
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-## O Teste
+## About Laravel
 
-Criar uma API que implementa o crud de produtos utilizando o framework laravel.
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-Um produto deve possuir os seguintes dados:
-- ID (PK - Inteiro)
-- Código (String)
-- Nome (String)
-- Preço (Float)
-- Qty Disponível (Inteiro)
-- Marca (String Alfanumérica)
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-A API deve implementar os seguintes verbos e endpoint:
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-- GET /api/products/
-  - Lista todos os produtos da aplicação.
-- POST /api/products/
-  - Cria um novo produto na aplicação.
-  - Não deve permitir duplicação de códigos. O código deve ser único.
-- GET /api/products/id/
-  - Obtém um produto específico por meio do ID
-- PUT /api/products/id/
-  - Atualiza um produto específico (todo o objeto deve ser atualizado).
-- DELETE /api/products/id/
-  - Deleta um produto especifico da aplicação
+## Learning Laravel
 
-### Requisitos  
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-- Use PHP 8.x e Mysql 8.x (disponíveis do docker-compose.yml do repositório - porém fique livre para rodar como preferir no seu ambiente local).
-- Você deve utilizar o Laravel 9 ou superior para criação da solução.
-- Você deve implementar as migrations, os factories e seed para eventuais testes e validações da sua implementação.
-- Crie um novo README.md explicando como devemos testar sua aplicação. Ou seja, esperamos que você documente o passo a passo para subirmos e testarmos sua aplicação.
+You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-## Recomendações
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-- Utilize docker. Você pode usar o docker-compose.yml deste repositório para rodar sua solução, mas fique livre para usar outro ou personaliza-lo. Você também pode usar o Laravel Sail caso prefira.
-- Siga as [boas práticas](https://swagger.io/resources/articles/best-practices-in-api-design/) para o desenvolvimento de APIs RESTful
-- **Bônus**: escrever ao menos um ou mais testes usando phpunit ou PEST. **Não** é um requisito obrigatório mas com certeza será um diferencial.
+## Laravel Sponsors
 
-## Processo de submissão
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-O candidato deverá fazer um fork deste repositório e efetuar a implementação do teste.
+### Premium Partners
 
-Ao finalizar a implementação deve adicionar o email denis.spalenza@redeancora.com.br ao seu repositório (onde está a implementação do seu teste) para validação do mesmo.
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Cubet Techno Labs](https://cubettech.com)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[Many](https://www.many.co.uk)**
+- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+- **[DevSquad](https://devsquad.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+- **[OP.GG](https://op.gg)**
+- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
+- **[Lendio](https://lendio.com)**
 
-Não abra PRs no nosso repositório público.
+## Contributing
 
-## Dúvidas?
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-Caso tenha alguma dúvida referente ao teste você pode abrir uma issue aqui mesmo neste repositório.
+## Code of Conduct
+
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
